@@ -22,13 +22,13 @@ export const Header = ({ cartItemsCount, onCartClick }: HeaderProps) => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Home</a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Products</a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Categories</a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">About</a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Contact</a>
-          </nav>
+            <nav className="hidden md:flex items-center space-x-8">
+              <a href="/" className="text-foreground hover:text-primary transition-colors">Home</a>
+              <a href="/products" className="text-foreground hover:text-primary transition-colors">Products</a>
+              <a href="/categories" className="text-foreground hover:text-primary transition-colors">Categories</a>
+              <a href="/about" className="text-foreground hover:text-primary transition-colors">About</a>
+              <a href="/contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
+            </nav>
 
           {/* Search Bar */}
           <div className="hidden md:flex items-center space-x-4 flex-1 max-w-md mx-8">
@@ -84,11 +84,11 @@ export const Header = ({ cartItemsCount, onCartClick }: HeaderProps) => {
                 />
               </div>
               <nav className="flex flex-col space-y-2">
-                <a href="#" className="text-foreground hover:text-primary transition-colors py-2">Home</a>
-                <a href="#" className="text-foreground hover:text-primary transition-colors py-2">Products</a>
-                <a href="#" className="text-foreground hover:text-primary transition-colors py-2">Categories</a>
-                <a href="#" className="text-foreground hover:text-primary transition-colors py-2">About</a>
-                <a href="#" className="text-foreground hover:text-primary transition-colors py-2">Contact</a>
+                <a href="/" className="text-foreground hover:text-primary transition-colors py-2">Home</a>
+                <a href="/products" className="text-foreground hover:text-primary transition-colors py-2">Products</a>
+                <a href="/categories" className="text-foreground hover:text-primary transition-colors py-2">Categories</a>
+                <a href="/about" className="text-foreground hover:text-primary transition-colors py-2">About</a>
+                <a href="/contact" className="text-foreground hover:text-primary transition-colors py-2">Contact</a>
               </nav>
             </div>
           </div>
